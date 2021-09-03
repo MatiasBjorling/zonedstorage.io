@@ -5,6 +5,8 @@
 # git push -f git@github.com:westerndigitalcorporation/zonedstorage.io.git gh-pages:gh-pages
 #
 
+#yes
+
 # Use yui-compressor when yuicompressor not available.
 YUICOMPRESSOR := yuicompressor
 ifneq (,$(wildcard yui-compressor))
