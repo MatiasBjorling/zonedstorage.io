@@ -1,5 +1,5 @@
 name: mkdocs verify
-on: [push, pull_request]
+on: push
 jobs:
   build:
     name: Verify that docs can be built
