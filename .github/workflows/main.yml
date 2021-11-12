@@ -1,8 +1,10 @@
 name: mkdocs verify
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
+      
 jobs:
   build:
     name: Verify that docs can be built
