@@ -1,3 +1,4 @@
+###### Requirements without Version Specifiers ######
 pymdown-extensions
 mkdocs
 mkdocs-pymdownx-material-extras
