@@ -1,15 +1,10 @@
-name: MkDocs Verify
-  uses: Tiryoh/actions-mkdocs@v0.9.0
-  with:
-    # path to requirements.txt
-    requirements: # optional, default is requirements.txt
-    # path to mkdocs.yml
-    configfile: # optional, default is mkdocs.yml
 name: mkdocs verify
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
+      
 jobs:
   build:
     name: Verify that docs can be built
